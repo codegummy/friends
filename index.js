@@ -53,11 +53,13 @@ function checkResult() {
 			const index = lettersLength % 6;
 			flameHTML.textContent = flames[index];
 
-			firstNameHTML = ''
-			secondNameHTML = ''
+			firstNameHTML.innerHTML = ''
+			secondNameHTML.innerHTML = ''
+			
 	
 	}catch{
 		error.textContent = 'Oops! It seems something is missing ˙◠˙'
+		flameHTML.textContent = '❀˖° RESULTS...❀˖°';
 	}
 
 	
