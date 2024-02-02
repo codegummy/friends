@@ -42,6 +42,7 @@ body{
   left: 50%;
   top: 10px;
   transform: translateX(-50%);
+	font-size: smaller;
   
 }
 
@@ -122,6 +123,7 @@ button, .input button{
 	font-size: 30px;
 	box-shadow: 10px 10px #000;
 	font-weight: 700;
+	text-align: center;
 }
 
 @media screen and (max-width: 680px) {
