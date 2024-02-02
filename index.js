@@ -52,6 +52,9 @@ function checkResult() {
 		
 			const index = lettersLength % 6;
 			flameHTML.textContent = flames[index];
+
+			firstNameHTML = ''
+			secondNameHTML = ''
 	
 	}catch{
 		error.textContent = 'Oops! It seems something is missing ˙◠˙'
