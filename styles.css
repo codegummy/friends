@@ -124,6 +124,7 @@ button, .input button{
 	box-shadow: 10px 10px #000;
 	font-weight: 700;
 	text-align: center;
+	text-wrap: nowrap;
 }
 
 @media screen and (max-width: 680px) {
