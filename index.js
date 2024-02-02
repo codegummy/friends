@@ -58,8 +58,9 @@ function checkResult() {
 			
 	
 	}catch{
-		error.textContent = 'Oops! It seems something is missing ˙◠˙'
-		flameHTML.textContent = '❀˖° RESULTS...❀˖°';
+		/* error.textContent = 'Oops! It seems something is missing ˙◠˙' */
+/* 		flameHTML.textContent = '❀˖° RESULTS...❀˖°'; */
+		flameHTML.textContent = 'wait';
 	}
 
 	
