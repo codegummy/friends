@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+}
+body{
+  background-color: #ff84a8;
+
+
+}
+
+
+.container {
+	background-color: #ff84a8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	height: 80vh;
+	margin-top: 40px;
+	color: #fff;
+  max-width: 800px;
+  margin: 10vh auto;
+
+}
+
+.title {
+	font-weight: bolder;
+	margin-bottom: 20px;
+  font-size: 45px;
+}
+.question {
+	font-style: italic;
+	margin-bottom: 50px;
+  position: relative;
+  width: 100%;
+}
+.text{
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  
+}
+
+.blur{
+  width: 400px;
+  height: 50px;
+  background-color: #ff2261;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(30px);
+  
+}
+
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+	width: 100%;
+}
+
+input {
+	height: 40px;
+	padding-inline: 8px;
+	border: 3px solid black;
+	box-shadow: 10px 4px #000;
+  width: 250px;
+  outline: none;
+}
+.input{
+  display: flex;
+  width: 100%;
+
+}
+button, .input button{
+	border: 3px solid black;
+	background-color: #ff779e;
+	box-shadow: 4px 4px #000;
+  cursor: pointer;
+  color: #fff;
+}
+.input button {
+	margin-left: -30px;
+	padding: 0px 10px;
+	height: 40px;
+}
+
+.check{
+	padding: 8px 20px;
+	margin-bottom: 20px;
+	letter-spacing: 4px;
+	font-weight: 500;
+	background-color: #ff4e80;
+
+}
+
+.enterName {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.enterName h6 {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.letters {
+	font-weight: 600;
+	font-size: 30px;
+	margin: 40px 0 ;
+	text-align: center;
+}
+
+.result {
+	background-color: #ff2261;
+	padding: 20px 40px;
+	font-size: 30px;
+	box-shadow: 10px 10px #000;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 680px) {
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .enterName{
+  justify-content: center;
+	align-items: center;
+  margin-bottom: 20px;
+
+  }
+  
+}
